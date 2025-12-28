@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Financial Assessment</title>
+  <link rel="stylesheet" href="css/style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+<div class="container">
+  <h2 id="step-indicator">Step 1 of 6</h2>
+
+  <form>
+
+    <div class="step active">
+      <h3>Personal Details</h3>
+      <input name="full_name" placeholder="Full Name">
+      <input name="age" type="number" placeholder="Age">
+    </div>
+
+    <div class="step">
+      <h3>Income Details</h3>
+      <input name="income" type="number" placeholder="Monthly Income">
+    </div>
+
+    <div class="step">
+      <h3>Monthly Expenses</h3>
+      <input name="expenses" type="number" placeholder="Monthly Expenses">
+    </div>
+
+    <div class="step">
+      <h3>Loans & Debts</h3>
+      <input name="loan" type="number" placeholder="Total Loan Amount">
+    </div>
+
+    <div class="step">
+      <h3>Savings & Investments</h3>
+      <input name="savings" type="number" placeholder="Monthly Savings">
+    </div>
+
+    <div class="step">
+      <h3>Financial Goals</h3>
+      <input name="goal" placeholder="Your Financial Goal">
+    </div>
+
+    <div class="buttons">
+      <button type="button" style="padding: 10px 15px;" onclick="prevStep()">Back</button>
+      <button type="button" style ="padding: 10px 15px;" onclick="nextStep()">Next</button>
+    </div>
+
+  </form>
+</div>
+
+<script src="js/onboarding.js"></script>
+</body>
+</html>

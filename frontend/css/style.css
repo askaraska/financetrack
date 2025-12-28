@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #f7f7f7;
+  color: #333;
+}
+
+.header {
+  text-align: center;
+  padding: 40px 20px;
+  background: #2563eb;
+  color: white;
+}
+
+.primary-btn {
+  margin-top: 20px;
+  padding: 12px 20px;
+  border: none;
+  background: white;
+  color: #2563eb;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.benefits {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  padding: 20px;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  flex: 1 1 45%;
+  text-align: center;
+}
+
+.pricing {
+  padding: 20px;
+  text-align: center;
+}
+
+.footer {
+  text-align: center;
+  padding: 15px;
+  background: #e5e7eb;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .card {
+    flex: 1 1 100%;
+  }
+}
+
+.container {
+  max-width: 400px;
+  margin: auto;
+  padding: 20px;
+}
+
+input {
+  width: 100%;
+  padding: 20px;
+  margin: 10px 0;
+}
+
+.step {
+  display: none;
+}
+
+.step.active {
+  display: block;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+  padding: 10px 10px;
+  font-size: 40px;
+  border-width: 20%;
+}
+
+
+/* Mobile Friendly */
+@media (max-width: 360px) {
+  body {
+    font-size: 14px;
+  }
+
+  .primary-btn {
+    width: 100%;
+  }
+}
