@@ -47,7 +47,7 @@ This project focuses only on UI development and does not include any backend or 
 ---
 
 ##  Folder Structure:
-
+financetrack/
 frontend/
  ├── index.html
  ├── onboarding.html
@@ -78,3 +78,4 @@ frontend/
 - All values shown are dummy data for UI demonstration
 
 -----------------------------------------------------------------------
+
