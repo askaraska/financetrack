@@ -48,18 +48,18 @@ This project focuses only on UI development and does not include any backend or 
 
 ##  Folder Structure:
 financetrack/
-frontend/
- ├── index.html
- ├── onboarding.html
- ├── dashboard.html
- ├── plan.html
- ├── profile.html
- ├── css/
- │    └── style.css
- ├── js/
- │    └── onboarding.js
- └── assets/
-      └── icons/
+   frontend/
+    ├── index.html
+    ├── onboarding.html
+    ├── dashboard.html
+    ├── plan.html
+    ├── profile.html
+    ├── css/
+    │    └── style.css
+    ├── js/
+    │    └── onboarding.js
+    └── assets/
+         └── icons/
 
 
 ---
@@ -78,4 +78,5 @@ frontend/
 - All values shown are dummy data for UI demonstration
 
 -----------------------------------------------------------------------
+
 
